@@ -1,0 +1,107 @@
+
+
+
+@font-face {
+
+    font-family: qwigley;
+    src: url(Qwigley-Regular.ttf) format("truetype");
+}
+
+h1{
+    font-size: 4em;
+    font-family: qwigley;
+}
+
+body {
+
+    margin: 10vh;
+    background: linear-gradient(
+        to left,
+        rgba(7,27,82,1)0%,
+        rgba(0,128,128,1)100%
+      );
+}
+
+
+
+.container{
+
+    display: flex;
+
+}
+
+
+
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gold;
+    
+
+
+
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+
+
+
+
+
+}
+
+.tetromino {
+    background-color: blue;
+}
+
+
+.ltetromino{
+
+    background-color: orange;
+}
+
+.ztetromino{
+    background-color: red;
+}
+
+
+.ttetromino{
+
+background-color: green;
+}
+
+.otetromino{
+
+    background-color: purple;
+}
+
+.itetromino{
+
+    background-color: blue;
+}
+
+
+.mini-grid{
+
+    margin-left: 50px;
+
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gold;
+
+}
+
+
+.mini-grid div{
+
+    height: 20px;
+    width: 20px;
+
+}
